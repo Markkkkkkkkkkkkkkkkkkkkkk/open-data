@@ -27,10 +27,10 @@
 </head>
 <body>
     <div class="card">
-        <h1>My data story: 這是針對高雄市各區 的 curve chart，主題是屏東縣東港鎮人口變遷。</h1>
-        <h2>我的家鄉屏東縣正面臨著高齡化社會帶來的挑戰，幾乎每位長者皆需長照服務，反映出資源缺乏、獨居與健康照護不足的挑戰。</h2>
+        <h1>My data story: 這是統計高雄市各區65歲以上的人口總數。</h1>
+        <h2>這是動畫式的高雄市區級熱圖，透過點擊高雄市中的各區再顯示村里細節。資料以村里為主，透過這張圖我們可以發現高雄市三民區和鳳山區的老年人口數分別為第一及第二高，長照的需求相較於其他地區高出許多。</h2>
     </div>
 
-    <iframe src="https://plotdb.io/v/chart/37107" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+    <iframe src="https://plotdb.io/v/chart/22611" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
 </body>
 </html>
