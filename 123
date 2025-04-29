@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>馬克's Data Story - 高雄市各區65歲以上人口數</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* 設定整體字體 */
+            font-size: 16px; /* 設定整體字體大小 */
+        }
+
+        .card {
+            background-color: #e6f7ff; /* 淡藍底色 */
+            border: 1px solid #cceffa; /* 淡藍邊框 */
+            border-radius: 8px; /* 圓角 */
+            padding: 15px; /* 內距 */
+            margin: 10px auto; /* 外距，自動置中 */
+            max-width: 800px; /* 最大寬度 */
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 陰影效果 */
+        }
+
+        h1, h2 {
+            margin-bottom: 10px; /* H1 和 H2 間距 */
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>My data story: 這是針對高雄市各區 的 curve chart，主題是屏東縣東港鎮人口變遷。</h1>
+        <h2>我的家鄉屏東縣正面臨著高齡化社會帶來的挑戰，幾乎每位長者皆需長照服務，反映出資源缺乏、獨居與健康照護不足的挑戰。</h2>
+    </div>
+
+    <iframe src="https://plotdb.io/v/chart/37107" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+</body>
+</html>
