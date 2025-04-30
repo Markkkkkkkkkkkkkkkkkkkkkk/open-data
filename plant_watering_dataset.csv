@@ -1,4 +1,4 @@
-﻿plant_name,growth_stage_days,season,sunlight,humidity (%),soil_moisture (%),temperature (°C),soil_ph,daily_water_need_ml
+﻿plant_name,growth_stage_days,season,sunlight,humidity,soil_moisture,temperature,soil_ph,daily_water_need_ml
 芹菜,19,夏季,Medium,46.5,12.3,28,7.5,120
 薄荷,75,夏季,Low,67.4,16.8,30.8,5.5,82
 蘆薈,117,秋季,Low,55.6,59.5,12.4,6.4,21
