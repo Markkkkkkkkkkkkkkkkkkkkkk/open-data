@@ -1,84 +1,72 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>馬克's Data Story - 高雄市各區65歲以上人口數</title>
     <style>
         body {
-            font-family: "Helvetica Neue", Arial, sans-serif;
-            font-size: 17px;
-            line-height: 1.8;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            background-color: #f7fbfc;
             margin: 0;
-            background-color: #f4faff;
-            color: #333;
+            padding: 0;
         }
 
         .card {
-            background-color: #ffffff;
-            border: 1px solid #dbeeff;
-            border-radius: 10px;
-            padding: 25px;
-            margin: 30px auto;
-            max-width: 900px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            background-color: #e6f7ff;
+            border: 1px solid #cceffa;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
-        h1 {
-            color: #005a9c;
-            font-size: 26px;
-            margin-bottom: 15px;
-        }
-
-        h2 {
-            color: #333;
-            font-size: 20px;
-            margin-bottom: 12px;
+        h1, h2 {
+            margin-bottom: 10px;
+            color: #004d66;
         }
 
         p {
-            margin: 12px 0;
+            line-height: 1.6;
         }
 
         img {
             width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin-top: 15px;
-            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 10px;
         }
 
         iframe {
-            border: none;
-            margin: 20px auto;
             display: block;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-        }
-
-        @media (max-width: 768px) {
-            body {
-                font-size: 16px;
-            }
-
-            h1 {
-                font-size: 22px;
-            }
+            margin: 0 auto 20px;
         }
     </style>
 </head>
 <body>
+
+    <div class="card">
+        <h1>高雄市高齡人口熱力圖</h1>
+        <p>
+            隨著台灣邁入高齡化社會，都市中老年人口的分布成為長期照護政策與資源配置的重要依據。
+            本專題透過熱力圖視覺化呈現高雄市各行政區65歲以上人口的分布情況，分別探討80歲以上與65-79歲族群的地理分布。
+            從圖中可看出，三民區與鳳山區在兩個年齡層的人口數皆名列前茅，顯示出對長照服務的高度需求。
+            本專題旨在透過資料視覺化，協助政策規劃者與大眾理解人口老化所帶來的區域性影響，並進一步思考因地制宜的照護策略。
+        </p>
+    </div>
+
     <div class="card">
         <h1>My data story: 統計高雄市各區80歲以上的人口總數。</h1>
-        <h2>這張圖表呈現了高雄市各行政區中，80歲以上老年人口的分布情況。從圖中可以觀察到，三民區和鳳山區的80歲以上人口數量明顯高於其他區域，顯示這兩區在高齡人口方面具有顯著的集中性。此外，其他如苓雅區、左營區和楠梓區等也顯示出較高的80歲以上人口比例，反映出這些區域可能面臨較大的長照需求。</h2>
+        <h2>這是動畫式的高雄市區級熱圖，透過點擊高雄市中的各區再顯示村里細節。資料以村里為主，透過這張圖我們可以發現高雄市三民區和鳳山區80歲以上的老年人口數分別為第一及第二高，長照的需求相較於其他地區高出許多。</h2>
     </div>
-    <iframe src="https://plotdb.io/v/chart/37352" width="95%" height="600px" allowfullscreen></iframe>
+    <iframe src="https://plotdb.io/v/chart/37352" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
 
     <div class="card">
         <h1>My data story: 統計高雄市各區65-79歲的人口總數。</h1>
-        <h2>這張圖表呈現了高雄市各行政區65至79歲人口的分布情況。從圖中可以觀察到，三民區和鳳山區的65-79歲人口數量明顯高於其他區域，顯示這些地區的中高齡人口密度較高。此外，像是左營區、苓雅區和楠梓區等也有較多的65-79歲人口。相對地，偏遠地區如桃源區、那瑪夏區和茂林區的65-79歲人口則較少。這樣的分布情況對於長照資源的配置和社區服務的規劃具有重要參考價值。</h2>
+        <h2>這是動畫式的高雄市區級熱圖，透過點擊高雄市中的各區再顯示村里細節。資料以村里為主，透過這張圖我們可以發現高雄市三民區和鳳山區65-79歲的老年人口數分別為第一及第二高，長照的需求相較於其他地區高出許多。</h2>
     </div>
-    <iframe src="https://plotdb.io/v/chart/37379" width="95%" height="600px" allowfullscreen></iframe>
+    <iframe src="https://plotdb.io/v/chart/37379" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
 
     <div class="card">
         <h1>熟齡智慧閱讀計畫：屏東的長照創新實踐</h1>
@@ -86,6 +74,6 @@
         <p>我的家鄉屏東縣正面臨著高齡化社會帶來的挑戰。屏東市高齡人口最多，長照壓力沉重；至於偏鄉如崁頂鄉、春日鄉與霧臺鄉等地，儘管人口較少，卻幾乎每位長者皆需長照服務，面對這樣的現實，畫面中展現的「熟齡智慧閱讀計畫」便是一種具體方法。</p>
         <p>「健康有聲書站」透過可移動涼亭與平板設備，打造無障礙的閱讀空間，讓長者在公園、海邊等地也能輕鬆聆聽有聲書，參與主題式閱讀與語音分享。「銀髮說書人」則進一步培力長者成為說書者，記錄生命經驗與健康觀念，並與青年協作製作聲音內容，發表於 YouTube 與社區展演，促進世代對話與知識共創。此設計讓長者從被照顧者轉為知識貢獻者，創造交流、參與與再現價值的正向循環。</p>
     </div>
+
 </body>
 </html>
-
