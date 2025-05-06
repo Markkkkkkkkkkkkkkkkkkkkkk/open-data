@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>馬克's Data Story - 高雄市各區65歲以上人口數</title>
+    <title>高雄市高齡人口熱力圖</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,25 +11,36 @@
             background-color: #f7fbfc;
             margin: 0;
             padding: 0;
+            line-height: 1.8;
         }
 
         .card {
             background-color: #e6f7ff;
             border: 1px solid #cceffa;
             border-radius: 8px;
-            padding: 15px;
-            margin: 20px auto;
-            max-width: 800px;
+            padding: 20px;
+            margin: 25px auto;
+            max-width: 850px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
-        h1, h2 {
+        h1 {
             margin-bottom: 10px;
             color: #004d66;
         }
 
+        h2 {
+            margin-top: 10px;
+            color: #005577;
+        }
+
         p {
-            line-height: 1.6;
+            line-height: 1.8;
+        }
+
+        .highlight {
+            color: red;
+            font-weight: bold;
         }
 
         img {
@@ -42,39 +53,56 @@
             display: block;
             margin: 0 auto 20px;
         }
+
+        .main-title {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: #002b40;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
 
+    <div class="main-title">高雄市高齡人口熱力圖</div>
+
     <div class="card">
-        <h1>高雄市高齡人口熱力圖</h1>
+        <h1>專題簡介</h1>
         <p>
-            隨著台灣邁入高齡化社會，都市中老年人口的分布成為長期照護政策與資源配置的重要依據。
-            本專題透過熱力圖視覺化呈現高雄市各行政區65歲以上人口的分布情況，分別探討80歲以上與65-79歲族群的地理分布。
-            從圖中可看出，三民區與鳳山區在兩個年齡層的人口數皆名列前茅，顯示出對長照服務的高度需求。
-            本專題旨在透過資料視覺化，協助政策規劃者與大眾理解人口老化所帶來的區域性影響，並進一步思考因地制宜的照護策略。
+            隨著台灣邁入<span class="highlight">高齡化社會</span>，都市中老年人口的分布成為<span class="highlight">長期照護政策</span>與<span class="highlight">資源配置</span>的重要依據。
+            本專題透過<span class="highlight">熱力圖</span>視覺化呈現高雄市各行政區<span class="highlight">65歲以上人口</span>的分布情況，分別探討<span class="highlight">80歲以上</span>與<span class="highlight">65-79歲</span>族群的地理分布。
+            從圖中可看出，<span class="highlight">三民區</span>與<span class="highlight">鳳山區</span>在人口數皆名列前茅，顯示出對<span class="highlight">長照服務</span>的高度需求。
+            本專題旨在透過資料視覺化，協助政策規劃者與大眾理解人口老化所帶來的區域性影響，並進一步思考<span class="highlight">因地制宜</span>的照護策略。
         </p>
     </div>
 
     <div class="card">
-        <h1>My data story: 統計高雄市各區80歲以上的人口總數。</h1>
-        <h2>這是動畫式的高雄市區級熱圖，透過點擊高雄市中的各區再顯示村里細節。資料以村里為主，透過這張圖我們可以發現高雄市三民區和鳳山區80歲以上的老年人口數分別為第一及第二高，長照的需求相較於其他地區高出許多。</h2>
+        <h1>高雄市各區<span class="highlight">80歲以上</span>人口分布</h1>
+        <h2>圖表觀察</h2>
+        <p>這張動畫式熱力圖展示高雄市各行政區及村里中<span class="highlight">80歲以上</span>人口的分布情況。</p>
+        <p>從圖中可觀察到，<span class="highlight">三民區</span>與<span class="highlight">鳳山區</span>的高齡長者人口名列前茅，顯示這些地區對<span class="highlight">長照資源</span>的需求尤為迫切。</p>
     </div>
     <iframe src="https://plotdb.io/v/chart/37352" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
 
     <div class="card">
-        <h1>My data story: 統計高雄市各區65-79歲的人口總數。</h1>
-        <h2>這是動畫式的高雄市區級熱圖，透過點擊高雄市中的各區再顯示村里細節。資料以村里為主，透過這張圖我們可以發現高雄市三民區和鳳山區65-79歲的老年人口數分別為第一及第二高，長照的需求相較於其他地區高出許多。</h2>
+        <h1>高雄市各區<span class="highlight">65-79歲</span>人口分布</h1>
+        <h2>圖表觀察</h2>
+        <p>本圖呈現高雄市各行政區內<span class="highlight">65-79歲</span>人口的熱點分布。</p>
+        <p>資料同樣顯示，<span class="highlight">三民區</span>與<span class="highlight">鳳山區</span>人口較多，這些地區的<span class="highlight">準高齡族群</span>將是未來長照需求增長的潛在熱點。</p>
     </div>
     <iframe src="https://plotdb.io/v/chart/37379" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
 
     <div class="card">
         <h1>熟齡智慧閱讀計畫：屏東的長照創新實踐</h1>
         <img src="A1113325_張梓閎_0325課程作業_gamma.jpg" alt="健康有聲書站活動照片">
-        <p>我的家鄉屏東縣正面臨著高齡化社會帶來的挑戰。屏東市高齡人口最多，長照壓力沉重；至於偏鄉如崁頂鄉、春日鄉與霧臺鄉等地，儘管人口較少，卻幾乎每位長者皆需長照服務，面對這樣的現實，畫面中展現的「熟齡智慧閱讀計畫」便是一種具體方法。</p>
-        <p>「健康有聲書站」透過可移動涼亭與平板設備，打造無障礙的閱讀空間，讓長者在公園、海邊等地也能輕鬆聆聽有聲書，參與主題式閱讀與語音分享。「銀髮說書人」則進一步培力長者成為說書者，記錄生命經驗與健康觀念，並與青年協作製作聲音內容，發表於 YouTube 與社區展演，促進世代對話與知識共創。此設計讓長者從被照顧者轉為知識貢獻者，創造交流、參與與再現價值的正向循環。</p>
+        <p>我的家鄉<span class="highlight">屏東縣</span>正面臨著<span class="highlight">高齡化社會</span>帶來的挑戰。</p>
+        <p><span class="highlight">屏東市</span>高齡人口最多，<span class="highlight">長照壓力沉重</span>；至於偏鄉如<span class="highlight">崁頂鄉</span>、<span class="highlight">春日鄉</span>與<span class="highlight">霧臺鄉</span>等地，儘管人口較少，卻幾乎每位長者皆需長照服務。</p>
+        <p>為此，我們推動「<span class="highlight">熟齡智慧閱讀計畫</span>」作為具體的因應方式。</p>
+        <p>「<span class="highlight">健康有聲書站</span>」透過<span class="highlight">可移動涼亭</span>與<span class="highlight">平板設備</span>，打造<span class="highlight">無障礙閱讀空間</span>，讓長者在公園、海邊等地也能輕鬆聆聽有聲書，參與<span class="highlight">主題式閱讀</span>與<span class="highlight">語音分享</span>。</p>
+        <p>「<span class="highlight">銀髮說書人</span>」計畫更進一步<span class="highlight">培力長者</span>成為說書者，<span class="highlight">記錄生命經驗與健康觀念</span>，並與青年協作<span class="highlight">製作聲音內容</span>，發表於 <span class="highlight">YouTube</span> 與<span class="highlight">社區展演</span>。</p>
+        <p>此計畫讓長者從<span class="highlight">被照顧者</span>轉為<span class="highlight">知識貢獻者</span>，創造<span class="highlight">交流、參與與再現價值</span>的正向循環。</p>
     </div>
 
 </body>
 </html>
-
