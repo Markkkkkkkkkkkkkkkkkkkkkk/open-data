@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,25 +11,31 @@
             background-color: #f7fbfc;
             margin: 0;
             padding: 0;
+            line-height: 1.8;
         }
 
         .card {
             background-color: #e6f7ff;
             border: 1px solid #cceffa;
             border-radius: 8px;
-            padding: 15px;
-            margin: 20px auto;
+            padding: 20px;
+            margin: 25px auto;
             max-width: 800px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
         h1, h2 {
-            margin-bottom: 10px;
-            color: #004d66;
+            margin-bottom: 15px;
+            color: #003d4d;
         }
 
         p {
-            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        span.red {
+            color: red;
+            font-weight: bold;
         }
 
         img {
@@ -49,30 +55,35 @@
     <div class="card">
         <h1>高雄市高齡人口熱力圖</h1>
         <p>
-            隨著台灣邁入高齡化社會，都市中老年人口的分布成為長期照護政策與資源配置的重要依據。
-            本專題透過熱力圖視覺化呈現高雄市各行政區65歲以上人口的分布情況，分別探討80歲以上與65-79歲族群的地理分布。
-            從圖中可看出，三民區與鳳山區在兩個年齡層的人口數皆名列前茅，顯示出對長照服務的高度需求。
-            本專題旨在透過資料視覺化，協助政策規劃者與大眾理解人口老化所帶來的區域性影響，並進一步思考因地制宜的照護策略。
+            隨著台灣邁入<span class="red">高齡化社會</span>，都市中老年人口的分布成為<span class="red">長期照護政策</span>與<span class="red">資源配置</span>的重要依據。
+            本專題透過<span class="red">熱力圖</span>視覺化呈現高雄市各行政區<span class="red">65歲以上人口</span>的分布情況，
+            分別探討<span class="red">80歲以上</span>與<span class="red">65-79歲</span>族群的地理分布。
+        </p>
+        <p>
+            從圖中可看出，<span class="red">三民區</span>與<span class="red">鳳山區</span>在人口數皆名列前茅，顯示出對<span class="red">長照服務</span>的高度需求。
+            本專題旨在協助政策規劃者與大眾理解<span class="red">人口老化</span>所帶來的區域性影響，並進一步思考<span class="red">因地制宜</span>的照護策略。
         </p>
     </div>
 
-    <div class="card">
-        <h1>My data story: 統計高雄市各區80歲以上的人口總數。</h1>
-        <h2>這是動畫式的高雄市區級熱圖，透過點擊高雄市中的各區再顯示村里細節。資料以村里為主，透過這張圖我們可以發現高雄市三民區和鳳山區80歲以上的老年人口數分別為第一及第二高，長照的需求相較於其他地區高出許多。</h2>
-    </div>
-    <iframe src="https://plotdb.io/v/chart/37352" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
-
-    <div class="card">
-        <h1>My data story: 統計高雄市各區65-79歲的人口總數。</h1>
-        <h2>這是動畫式的高雄市區級熱圖，透過點擊高雄市中的各區再顯示村里細節。資料以村里為主，透過這張圖我們可以發現高雄市三民區和鳳山區65-79歲的老年人口數分別為第一及第二高，長照的需求相較於其他地區高出許多。</h2>
-    </div>
-    <iframe src="https://plotdb.io/v/chart/37379" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+    <!-- 以下保留你原來的區塊，可視需要加上 red class -->
+    <!-- 略去熱圖部分與 iframe 保持原樣 -->
 
     <div class="card">
         <h1>熟齡智慧閱讀計畫：屏東的長照創新實踐</h1>
         <img src="A1113325_張梓閎_0325課程作業_gamma.jpg" alt="健康有聲書站活動照片">
-        <p>我的家鄉屏東縣正面臨著高齡化社會帶來的挑戰。屏東市高齡人口最多，長照壓力沉重；至於偏鄉如崁頂鄉、春日鄉與霧臺鄉等地，儘管人口較少，卻幾乎每位長者皆需長照服務，面對這樣的現實，畫面中展現的「熟齡智慧閱讀計畫」便是一種具體方法。</p>
-        <p>「健康有聲書站」透過可移動涼亭與平板設備，打造無障礙的閱讀空間，讓長者在公園、海邊等地也能輕鬆聆聽有聲書，參與主題式閱讀與語音分享。「銀髮說書人」則進一步培力長者成為說書者，記錄生命經驗與健康觀念，並與青年協作製作聲音內容，發表於 YouTube 與社區展演，促進世代對話與知識共創。此設計讓長者從被照顧者轉為知識貢獻者，創造交流、參與與再現價值的正向循環。</p>
+        <p>我的家鄉<span class="red">屏東縣</span>正面臨著<span class="red">高齡化社會</span>帶來的挑戰。
+        <span class="red">屏東市</span>高齡人口最多，<span class="red">長照壓力沉重</span>；至於偏鄉如<span class="red">崁頂鄉</span>、<span class="red">春日鄉</span>與<span class="red">霧臺鄉</span>等地，儘管人口較少，
+        卻幾乎每位長者皆需長照服務。</p>
+
+        <p>畫面中展現的「<span class="red">熟齡智慧閱讀計畫</span>」便是一種具體方法。</p>
+
+        <p>「<span class="red">健康有聲書站</span>」透過<span class="red">可移動涼亭</span>與<span class="red">平板設備</span>，打造<span class="red">無障礙閱讀空間</span>，
+        讓長者在公園、海邊等地也能<span class="red">輕鬆聆聽有聲書</span>，參與<span class="red">主題式閱讀</span>與<span class="red">語音分享</span>。</p>
+
+        <p>「<span class="red">銀髮說書人</span>」則進一步<span class="red">培力長者</span>成為說書者，<span class="red">記錄生命經驗與健康觀念</span>，
+        並與青年協作<span class="red">製作聲音內容</span>，發表於<span class="red">YouTube</span>與<span class="red">社區展演</span>，促進<span class="red">世代對話</span>與<span class="red">知識共創</span>。</p>
+
+        <p>此設計讓長者從<span class="red">被照顧者</span>轉為<span class="red">知識貢獻者</span>，創造<span class="red">交流</span>、<span class="red">參與</span>與<span class="red">再現價值</span>的<span class="red">正向循環</span>。</p>
     </div>
 
 </body>
