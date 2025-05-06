@@ -1,27 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>馬克's Data Story - 高雄市各區65歲以上人口數</title>
     <style>
         body {
-            font-family: Arial, sans-serif; /* 設定整體字體 */
-            font-size: 16px; /* 設定整體字體大小 */
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            font-size: 17px;
+            line-height: 1.8;
+            margin: 0;
+            background-color: #f4faff;
+            color: #333;
         }
 
         .card {
-            background-color: #e6f7ff; /* 淡藍底色 */
-            border: 1px solid #cceffa; /* 淡藍邊框 */
-            border-radius: 8px; /* 圓角 */
-            padding: 15px; /* 內距 */
-            margin: 10px auto; /* 外距，自動置中 */
-            max-width: 800px; /* 最大寬度 */
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 陰影效果 */
+            background-color: #ffffff;
+            border: 1px solid #dbeeff;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
         }
 
-        h1, h2 {
-            margin-bottom: 10px; /* H1 和 H2 間距 */
+        h1 {
+            color: #005a9c;
+            font-size: 26px;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin: 12px 0;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-top: 15px;
+            border: 1px solid #ddd;
+        }
+
+        iframe {
+            border: none;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
         }
     </style>
 </head>
@@ -30,17 +72,20 @@
         <h1>My data story: 統計高雄市各區80歲以上的人口總數。</h1>
         <h2>這是動畫式的高雄市區級熱圖，透過點擊高雄市中的各區再顯示村里細節。資料以村里為主，透過這張圖我們可以發現高雄市三民區和鳳山區80歲以上的老年人口數分別為第一及第二高，長照的需求相較於其他地區高出許多。</h2>
     </div>
-    <iframe src="https://plotdb.io/v/chart/37352" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+    <iframe src="https://plotdb.io/v/chart/37352" width="95%" height="600px" allowfullscreen></iframe>
+
     <div class="card">
         <h1>My data story: 統計高雄市各區65-79歲的人口總數。</h1>
         <h2>這是動畫式的高雄市區級熱圖，透過點擊高雄市中的各區再顯示村里細節。資料以村里為主，透過這張圖我們可以發現高雄市三民區和鳳山區65-79歲的老年人口數分別為第一及第二高，長照的需求相較於其他地區高出許多。</h2>
     </div>
-    <iframe src="https://plotdb.io/v/chart/37379" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+    <iframe src="https://plotdb.io/v/chart/37379" width="95%" height="600px" allowfullscreen></iframe>
+
     <div class="card">
-    <h1>熟齡智慧閱讀計畫：屏東的長照創新實踐</h1>
-    <img src="A1113325_張梓閎_0325課程作業_gamma.jpg" alt="健康有聲書站活動照片" style="width:100%; border-radius:8px; margin-top:10px;">
-    <p>我的家鄉屏東縣正面臨著高齡化社會帶來的挑戰。屏東市高齡人口最多，長照壓力沉重；至於偏鄉如崁頂鄉、春日鄉與霧臺鄉等地，儘管人口較少，卻幾乎每位長者皆需長照服務，面對這樣的現實，畫面中展現的「熟齡智慧閱讀計畫」便是一種具體方法。</p>
-    <p>「健康有聲書站」透過可移動涼亭與平板設備，打造無障礙的閱讀空間，讓長者在公園、海邊等地也能輕鬆聆聽有聲書，參與主題式閱讀與語音分享。「銀髮說書人」則進一步培力長者成為說書者，記錄生命經驗與健康觀念，並與青年協作製作聲音內容，發表於 YouTube 與社區展演，促進世代對話與知識共創。此設計讓長者從被照顧者轉為知識貢獻者，創造交流、參與與再現價值的正向循環。</p>
+        <h1>熟齡智慧閱讀計畫：屏東的長照創新實踐</h1>
+        <img src="A1113325_張梓閎_0325課程作業_gamma.jpg" alt="健康有聲書站活動照片">
+        <p>我的家鄉屏東縣正面臨著高齡化社會帶來的挑戰。屏東市高齡人口最多，長照壓力沉重；至於偏鄉如崁頂鄉、春日鄉與霧臺鄉等地，儘管人口較少，卻幾乎每位長者皆需長照服務，面對這樣的現實，畫面中展現的「熟齡智慧閱讀計畫」便是一種具體方法。</p>
+        <p>「健康有聲書站」透過可移動涼亭與平板設備，打造無障礙的閱讀空間，讓長者在公園、海邊等地也能輕鬆聆聽有聲書，參與主題式閱讀與語音分享。「銀髮說書人」則進一步培力長者成為說書者，記錄生命經驗與健康觀念，並與青年協作製作聲音內容，發表於 YouTube 與社區展演，促進世代對話與知識共創。此設計讓長者從被照顧者轉為知識貢獻者，創造交流、參與與再現價值的正向循環。</p>
     </div>
 </body>
 </html>
+
